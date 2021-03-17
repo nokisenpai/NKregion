@@ -1,0 +1,15 @@
+name: NKregion
+main: be.noki_senpai.NKregion.NKregion
+version: 0.0.1
+api-version: 1.14
+author: 'NoKi_senpai'
+description: 'Region maker for the server Lumen'
+website: www.lumen.ovh
+depend: [NKmanager]
+commands:
+  land:
+    description: "Global region command"
+    usage: /<command>
+  nether:
+    description: "Tp to region's nether"
+    usage: /<command>
